@@ -3,8 +3,8 @@ import pandas as pd
 import altair as alt
 
 # Load datasets
-hour_data = pd.read_csv('./hour_cleaned.csv') 
-day_data = pd.read_csv('./day_cleaned.csv') 
+hour_data = pd.read_csv('submission/dashboard/hour_cleaned.csv') 
+day_data = pd.read_csv('submission/dashboard/day_cleaned.csv')
 
 # Sidebar untuk navigasi
 st.sidebar.title("Navigasi")
